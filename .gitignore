@@ -1,0 +1,19 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+## Rider / VSCode
+.idea/
+.vscode/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Документація для викладача
+README.md
+TASK.md
+docker-kafka.md
