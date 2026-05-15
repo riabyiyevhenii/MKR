@@ -26,8 +26,8 @@ public class Main {
     static final String BOOTSTRAP_SERVERS = "kafka:29092";
     static final String REQUEST_TOPIC     = "demo-requests";
     static final String RESPONSE_TOPIC    = "demo-responses";
-    static final int    START             = 10;
-    static final int    FINISH            = 100;
+    static final int    START             = 1;
+    static final int    FINISH            = 10_000_000;
 
     public static void main(String[] args) throws Exception {
         String correlationId = UUID.randomUUID().toString();
